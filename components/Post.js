@@ -10,9 +10,9 @@ const Post = ({ post }) => {
                 <div className="card-body">
                     <h1>{post.title}</h1>
                     <p>{post.content}</p>
-                    <Link href={`/post?title=${post.title}`} as={`post/${post.title}`}>
+                    {/* <Link href={`/post?title=${post.title}`} as={`post/${post.title}`}>
                         <a className="btn btn-primary">Leer</a>
-                    </Link>
+                    </Link> */}
                 </div>
             </div>
         </div>
