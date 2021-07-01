@@ -66,7 +66,7 @@ export const projects = [
 
 export const posts = [
     {
-        title: "php 8",
+        title: "php8",
         content: "In auctor consectetur ex, eget posuere lorem convallis id. Donec lobortis ornare lorem, vel ultrices tortor maximus eget. Cras quis congue dui. Pellentesque euismod augue a bibendum posuere. Ut et ullamcorper arcu.",
         imageUrl:'https://www.php.net/images/php8/php_8_released.png'
     },
