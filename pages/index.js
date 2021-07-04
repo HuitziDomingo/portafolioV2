@@ -15,10 +15,14 @@ const Index = () => {
                                 <img src="perfil.jpg" className="img-fluid" alt="" />
                             </div>
                             <div className="col-md-8">
-                                <h1>Huitzitzili</h1>
+                                <h1>Huitzitzili Domingo Leon Nieves</h1>
                                 <h3>Frontend Developer</h3>
                                 <p>
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, voluptatibus quas. Deleniti nemo eos, unde natus ducimus tempore eius perspiciatis sequi nihil totam at ab nostrum sapiente laborum blanditiis. Esse.
+                                    Soy un desarrollador semi senior web, me gusta el diseño y programacion de softaware, suelo practicar con algunas
+                                    tecnologias como Laravel, React, Next, React Native y el 
+                                    sistema de paqutes de Node; NPM.
+                                    Tengo algunos conocimientos en el desarrollo de aplicaciones moviles, usando react native y express.
+                                    Pero lo que mas me apasiona es el diseño frontend tanto en web como en movil.
                                 </p>
                                 <a className="btn btn-primary rounded-pill px-2" href="/contratar">Contratar</a>
                             </div>
@@ -33,11 +37,12 @@ const Index = () => {
                         <div className="card-body">
                             <h1>Habilidades</h1>
                             {
-                                skills.map(({ skill, percentage }, k) => (
+                                skills.map(({ skill, percentage, num }, k) => (
                                     <div className="py-3" key={k}>
                                         <h5>{skill}</h5>
                                         <div className="progress">
                                             <div className="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style={{ width: `${percentage}%` }} aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                            {num}
                                             </div>
                                         </div>
                                     </div>
