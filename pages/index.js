@@ -12,7 +12,7 @@ const Index = () => {
                     <div className="card card-body bg-secondary">
                         <div className="row">
                             <div className="col-md-4">
-                                <img src="toronto.jpg" className="img-fluid" alt="" />
+                                <img src="perfil.jpg" className="img-fluid" alt="" />
                             </div>
                             <div className="col-md-8">
                                 <h1>Huitzitzili</h1>
@@ -28,7 +28,7 @@ const Index = () => {
             </header>
             {/*Segunda seccion*/}
             <div className="row py-2">
-                <div className="col-md-4">
+                <div className="col-md-4 mar-responsive">
                     <div className="card bg-light">
                         <div className="card-body">
                             <h1>Habilidades</h1>
@@ -75,8 +75,8 @@ const Index = () => {
                                 <h1 className="text-center text-light">Portafolio</h1>
                             </div>
                             {
-                                projects.map(({ name, description, image }, k) => (
-                                    <div className="col-md-4" key={k}>
+                                projects.map(({ name, description, image, url }, k) => (
+                                    <div className="col-md-4 mar-responsive" key={k}>
                                         <div className="card h-100">
                                             <div className="overflow">
                                                 <img src={image} alt="" className="card-img-top" />
@@ -84,7 +84,7 @@ const Index = () => {
                                             <div className="card-body">
                                                 <h3>{name}</h3>
                                                 <p>{description}</p>
-                                                <a href="#" className="btn btn-secondary">Saber Mas</a>
+                                                <a href={url} target="_blank" className="btn btn-secondary">Visitar</a>
                                             </div>
                                         </div>
                                     </div>

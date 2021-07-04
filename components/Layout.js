@@ -30,7 +30,7 @@ const Layout = ({ children, footer = true }) => {
                     <footer className="bg-dark text-light text-center">
                         <div className="container p-4">
                             <h1>Huitzitzili Domingo Leon Nieves</h1>
-                            <p>&copy; 2020 - {new Date().getFullYear()}</p>
+                            <p>&copy; - {new Date().getFullYear()}</p>
                             <p>Derechos reservados</p>
                         </div>
                     </footer>

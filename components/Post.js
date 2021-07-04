@@ -2,7 +2,7 @@
 
 const Post = ({ post }) => {
     return (
-        <div className="col-md-4">
+        <div className="mar-responsive col-md-4">
             <div className="card">
                 <div className="overflow">
                     <img className="img-fluid card-img-top" src={post.imageUrl} alt="" />

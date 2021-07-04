@@ -14,3 +14,11 @@
 
 #nprogress .bar{background-color: white!important;}
 #nprogress .spinner-icon{border-top-color: white; border-left-color: white;}
+
+
+@media all and (max-width: 768px){
+    .mar-responsive{
+        margin-bottom: 25px;
+    }
+    
+}
